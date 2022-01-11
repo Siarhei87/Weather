@@ -19,6 +19,7 @@
 		E2C5BD40278E1D04009F8FFE /* WeatherDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5BD3F278E1D04009F8FFE /* WeatherDaily.swift */; };
 		E2C5BD42278E1D34009F8FFE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5BD41278E1D34009F8FFE /* Weather.swift */; };
 		E2C5BD44278E1D5B009F8FFE /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5BD43278E1D5B009F8FFE /* Temperature.swift */; };
+		E2C5BD46278E2486009F8FFE /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C5BD45278E2486009F8FFE /* CityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E2C5BD3F278E1D04009F8FFE /* WeatherDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDaily.swift; sourceTree = "<group>"; };
 		E2C5BD41278E1D34009F8FFE /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		E2C5BD43278E1D5B009F8FFE /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		E2C5BD45278E2486009F8FFE /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		E22CBB5E278DF518009A784D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E2C5BD45278E2486009F8FFE /* CityViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C5BD40278E1D04009F8FFE /* WeatherDaily.swift in Sources */,
+				E2C5BD46278E2486009F8FFE /* CityViewModel.swift in Sources */,
 				E22CBB63278DF600009A784D /* ApiExtension.swift in Sources */,
 				E2C5BD2A278E014B009F8FFE /* WeatherResponse.swift in Sources */,
 				E2C5BD3E278E1CC4009F8FFE /* WeatherDetail.swift in Sources */,
