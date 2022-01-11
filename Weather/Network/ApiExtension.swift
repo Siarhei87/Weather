@@ -6,6 +6,6 @@ extension Api {
   
   static func getUrl(lat: Double, lon: Double) -> String {
     
-    return "\(baseUrl)onecall?lat=\(lat)&lon=\(lon)&exclude=hourly&appid=\(key)&units=metric"
+    return "\(baseUrl)onecall?lat=\(lat)&lon=\(lon)&exclude=minutely&appid=\(key)&units=metric"
   }
 }

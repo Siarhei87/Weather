@@ -1,14 +1,15 @@
 import Foundation
 
-struct WeatherResponse: Codable, Identifiable {
-  var id = UUID().uuidString
-  var lat: Double
-  var lon: Double
-  var timezone: String
-  var timezone_offset: Int
-  var current: Current
-  var minutely: [Minutely]
-  var daily: [Daily]
+struct WeatherResponse: Codable {
+  var current: Weather
+  var hourly: [Weather]
+  var daily: [WeatherDaily]
+  
+  static func empty() -> WeatherResponse {
+    return WeatherResponse(
+      current: Weather(),
+      hourly: [Weather](repeating: Weather(), count: 24),
+      daily: [WeatherDaily](repeating: WeatherDaily(), count: 8)
+    )
+  }
 }
-
-
